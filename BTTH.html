@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>
+        <h2>Đăng ký sinh viên mới</h2>
+      </legend>
+      <form action="">
+        <table>
+          <tbody>
+            <tr>
+              <td><label for="fullName">Họ và tên:</label></td>
+              <td>
+                <input type="text" id="fullName" value="Nguyễn Văn A" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="dateOfBirth">Ngày sinh đầy đủ:</label></td>
+              <td><input type="date" id="dateOfBirth" value="2005-03-15" /></td>
+            </tr>
+            <tr>
+              <td>
+                <label for="timeOfMouth">Tháng và năm nhập học</label>
+              </td>
+              <td>
+                <input type="month" id="timeOfMouth" value="2023-09" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="time">Thời gian học:</label></td>
+              <td><input type="time" id="time" value="08:00" /></td>
+            </tr>
+            <tr>
+              <td><label for="gender">Giới tích:</label></td>
+              <td>
+                <input type="radio" id="gender" name="gender" />Nam
+                <input type="radio" id="gender" name="gender" />Nữ
+                <input type="radio" id="gender" name="gender" checked />Khác
+              </td>
+            </tr>
+            <tr>
+              <td><label for="email">Email sinh viên:</label></td>
+              <td>
+                <input
+                  type="email"
+                  id="email"
+                  value="sinhvien@university.edu.vn"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="password">Mật Khẩu</label></td>
+              <td><input type="password" id="password" value="********" /></td>
+            </tr>
+            <tr>
+              <td><label for="tasks">Mục tiêu học tập:</label></td>
+              <td>
+                <textarea id="tasks" rows="5">
+Muốn trở thành lập trình viên giỏi và đóng góp cho xã hội</textarea
+                >
+              </td>
+            </tr>
+            <tr>
+              <td><label for="adress">Cơ sở:</label></td>
+              <td>
+                <select id="adress">
+                  <option value="">Hà Nội</option>
+                  <option value="">Thanh Hóa</option>
+                  <option value="">Nam Định</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="images">Ảnh thẻ sinh viên:</label></td>
+              <td><input type="file" id="images" /></td>
+            </tr>
+            <tr>
+              <td><label for="hobbies">Môn yêu thích:</label></td>
+              <td>
+                <input type="checkbox" id="hobbies" checked />Toán học
+                <input type="checkbox" id="hobbies" checked />Lập trình
+                <input type="checkbox" id="hobbies" />Tiếng Anh
+                <input type="checkbox" id="hobbies" />Vật lý
+              </td>
+            </tr>
+            <tr>
+              <td><label for="homeworks">Tiến độ học tập:</label></td>
+              <td><input type="range" id="homeworks" value="60" /></td>
+            </tr>
+            <tr>
+              <td><label for="year">Năm học thứ:</label></td>
+              <td><input type="number" id="year" min="0" value="2" /></td>
+            </tr>
+            <tr>
+              <td><label for="search">Tìm kiếm khóa học</label></td>
+              <td>
+                <input type="search" id="search" value="Khóa học máy tính" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="color">Màu sắc yêu thích:</label></td>
+              <td><input type="color" id="color" /></td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>
+                <input type="reset" value="Hủy" />
+                <input type="button" value="Làm Mới" />
+                <input type="submit" value="Gửi" />
+              </td>
+              <td></td>
+            </tr>
+          </tfoot>
+        </table>
+      </form>
+    </fieldset>
+  </body>
+</html>
