@@ -6,24 +6,39 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Form Đặt Lịch Tư Vắn Học Tập</h1>
-    <form action="">
-      <label for="">Họ và tên: </label>
-      <input type="text" name="" id="" />
-      <br /><br />
-      <label for="">Chọn ngày giờ: </label>
-      <input type="datetime-local" name="" id="" />
-      <br /><br />
-      <label for="">Loại dịch vụ: </label>
-      <select>
-        <option value="">Tư vấn học tập</option>
-        <option value="">Hướng nghiệp</option>
-      </select>
-      <br /><br />
-      <label for="">Ghi chú: </label>
-      <textarea name="" id=""></textarea>
-      <br /><br />
-      <input type="submit" value="Đặt lịch" />
-    </form>
+    <fieldset>
+      <legend>
+        <h1>Form Đặt Lịch Tư Vắn Học Tập</h1>
+      </legend>
+      <form action="">
+        <table>
+          <tr>
+            <td><label for="">Họ và tên: </label></td>
+            <td><input type="text" name="" id="" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Chọn ngày giờ: </label></td>
+            <td><input type="datetime-local" name="" id="" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Loại dịch vụ: </label></td>
+            <td>
+              <select>
+                <option value="">Tư vấn học tập</option>
+                <option value="">Hướng nghiệp</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Ghi chú: </label></td>
+            <td><textarea name="" id=""></textarea></td>
+          </tr>
+          <tr>
+            <td><input type="submit" value="Đặt lịch" /></td>
+            <td></td>
+          </tr>
+        </table>
+      </form>
+    </fieldset>
   </body>
 </html>
